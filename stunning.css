@@ -1,0 +1,129 @@
+body{
+    text-align: justify;
+    font-family: sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    margin: 0 20px 20 px 40px;
+}
+.logo>img{
+    height: 48px;    
+    left:0
+}
+.nav{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.nav>span{
+    margin:30px;
+}
+.nav>span:hover{
+    color:#0b0603;
+    text-decoration: underline #5243C0 solid 2px;
+}
+.button>button{
+    border: none;
+    background-color:  #FFD8DB;
+    color: #5243C0;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+button{
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.h1-container>h1{
+    font-size: 65px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dot{
+    font-size: 20px;
+    color: #5243C0;
+}
+.new-account{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.new-account>button{
+    border: none;
+    background-color:  #5243C0;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+.table{
+    margin-top: 60px;
+}
+.inside-table{
+    display: flex;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 15px;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.check-box{
+    /* padding: auto; */
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+}
+.date{
+    color: #c3c3cc;
+}
+.text{
+    font-weight: bold;
+    white-space: nowrap;
+    width: 40%;
+}
+.inside-table:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    /* box-shadow: 6px 6px 12px 2px rgba(230, 230, 230, 230 ,1); */
+    box-shadow: 6px 6px 22px 2px rgba(226, 220, 220, 1);
+
+}
+.user-image{
+    height: 30px;
+    width: 30px;
+    margin-top: 4px
+}
+.strip{
+  width: 20px;
+  height: 10px;
+  border-radius: 100px;
+  /* background-color: #5243C0;  */
+  margin-top: 15px;
+  margin-right: 10px;
+}
+#s_1{
+    background-color: #FFD8DB;
+}
+#s_2{
+    background-color: #fd6534;
+}
+#s_3{
+    background-color: #9fd297;
+}
+#s_4{
+    background-color: #ffe1a1;
+}
+aside{
+    height: 500px;
+    width: 500px;
+}
